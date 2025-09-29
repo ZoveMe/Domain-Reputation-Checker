@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* Soft gradient background blending the primary and secondary colours */
+  @apply bg-gradient-to-br from-primary-light via-white to-secondary-light;
+  color: #1f2937; /* dark grey text for good contrast */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded;
+}
