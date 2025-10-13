@@ -1,6 +1,6 @@
 # Domain/IP Reputation Checker – Modern Web App
 
-This repository contains a full‑stack implementation of the Domain/IP reputation checker you requested.  The design follows a clean, minimalist aesthetic with a glassmorphism twist and is built with **React** on the client side and **Express** (Node.js) on the server side.  It also includes Tailwind CSS for rapid styling and modern typography.
+This repository contains a full‑stack implementation of the Domain/IP reputation checker. The design follows a clean, minimalist aesthetic with a glassmorphism twist and is built with **React** on the client side and **Express** (Node.js) on the server side.  It also includes Tailwind CSS for rapid styling and modern typography.
 
 
 ## Getting Started
